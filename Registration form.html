@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head><title>Registration form</title>
+    <style>
+        body{
+            background-image:url("5519205-facebook-wallpaper.jpg"), url("3.jpg");
+            background-repeat:no-repeat, no-repeat;
+
+        }
+        div{
+            float:right;
+            color:Red;
+        }
+    </style>
+</head>
+<body text="greenyellow">
+<form method="POST" action="registration_page.php">
+    <marquee scrollamount="5" direction="right" behavior="alternate">
+        <h1>Sign Up</h1>
+        <h2><b>Please fill in this form to create an account.</b></h2>
+    </marquee>
+    <font face="Bold" size="5">
+        <section>
+            <div>
+                <fieldset>
+                    First Name:<input type="text"name="fname" placeholder="Enter ur First Name"/><br><br>
+                    Last Name:<input type="text"name="lname" placeholder="Enter ur Last Name"/><br><br>
+                    Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email"name="email"placeholder="Enter ur Email"/><br><br>
+                    <label id="input Email"class="sr-only"></label>
+                    Mobile: &nbsp&nbsp&nbsp&nbsp
+                    <input type="tell"name="mobile"placeholder="Enter ur Mobile Number"/><br><br>
+                    Password:&nbsp&nbsp<input type="password"name="password"placeholder="Enter a Password"/><br><br>
+                    Birthday: &nbsp&nbsp&nbsp<input type="date"name="dob"/><br><br>
+                    Gender: <input type="radio"name="gender" value="male"> Male
+                    <input type="radio"name="gender" value="female"> Female <br><br>
+                    <input type="submit"name="register"value="Create an account" style="background-color:greenyellow"/><br><br>
+                    <input type="reset"value="Reset" style="background-color:#FF00FF"/>
+                </fieldset>
+            </div>
+        </section>
+    </font>
+</form>
+</body>
+</html>
